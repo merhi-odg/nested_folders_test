@@ -1,4 +1,4 @@
-from global_functions import absolute_value
+from .global_functions import absolute_value
 
 def square_root(x):
     return absolute_value(x)**.5
