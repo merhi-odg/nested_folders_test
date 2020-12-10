@@ -11,4 +11,5 @@ def begin():
     
 #modelop.score
 def action(data):
-    return {"global_var": global_var, "sqrt": square_root(data)}
+    yield {"global_var": global_var, "sqrt": square_root(data)}
+    
