@@ -1,7 +1,7 @@
 #modelop.schema.0: input_schema.avsc
 #modelop.slot.1: in-use
 
-from utilities import *
+from utilities.helper_functions import *
 
 #modelop.init
 def begin():
