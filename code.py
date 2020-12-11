@@ -12,3 +12,7 @@ def begin():
 #modelop.score
 def action(data):
     yield {"global_var": global_var, "sqrt": square_root(data)}
+
+#modelop.metrics
+def metrics(data):
+    yield{"AUC":1}
