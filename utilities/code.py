@@ -2,10 +2,11 @@
 #modelop.slot.1: in-use
 
 from utilities.helper_functions import square_root, global_var
-
+import os
 
 #modelop.init
 def begin():
+    print("CWD: ", os.getcwd(), flush=True)
     pass
 
 
