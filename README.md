@@ -3,7 +3,8 @@
 Main source code imports functions and global variables from the utilities directory
 
 For a scoring job, use json file in `/data/`
-expected output: 
+
+Expected output: 
 
 ```json
 {"global_var": "global_var", "sqrt": 1.0}
